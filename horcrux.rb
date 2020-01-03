@@ -2,14 +2,14 @@
 class Horcrux < Formula
   desc "A program for splitting your files into encrypted fragments"
   homepage "https://github.com/jesseduffield/horcrux/"
-  version "0.1"
+  version "0.2"
 
   if OS.mac?
-    url "https://github.com/jesseduffield/horcrux/releases/download/v0.1/horcrux_0.1_Darwin_x86_64.tar.gz"
-    sha256 "ad013a96f8c3bb23d46e5878ea975d1ab56b545d68eb6122a71b27db89a0ff99"
+    url "https://github.com/jesseduffield/horcrux/releases/download/v0.2/horcrux_0.2_Darwin_x86_64.tar.gz"
+    sha256 "0d053b14d9c8e62ed0b09183c004a600ee72cd9bcf50db2ba9b0cba671aa2293"
   elsif OS.linux?
-    url "https://github.com/jesseduffield/horcrux/releases/download/v0.1/horcrux_0.1_Linux_x86_64.tar.gz"
-    sha256 "c53e3daef89e512536450c7cdac5fc2926c970693a6414d7b360f2d1c5dc4ff5"
+    url "https://github.com/jesseduffield/horcrux/releases/download/v0.2/horcrux_0.2_Linux_x86_64.tar.gz"
+    sha256 "deb9ce75ed5dd461319b99c2b2a82a8d9c5d89d15d834189b57666e08c45f996"
   end
 
   def install
